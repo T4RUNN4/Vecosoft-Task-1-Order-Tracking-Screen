@@ -1,0 +1,79 @@
+{
+  "orders": [
+    {
+      "id": "OLB-28471",
+      "customer": "Tarunna Sen",
+      "product": {
+        "name": "Custom Premium Wallboard",
+        "variant": "Messi • 6 × 8 ft",
+        "quantity": 1,
+        "price": 1850,
+        "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=400&q=80"
+      },
+      "states": {
+        "on_time": {
+          "status": "On the way",
+          "label": "Arriving on time",
+          "message": "Your order is moving through the delivery network.",
+          "accent": "blue",
+          "estimated": "Tomorrow, Sep 28",
+          "window": "10:00 AM – 2:00 PM",
+          "progress": 66,
+          "currentStep": 2
+        },
+        "delayed": {
+          "status": "Delayed",
+          "label": "Delivery is taking longer",
+          "message": "Your estimated delivery time has passed. We’re sorry for the delay.",
+          "accent": "amber",
+          "estimated": "Sep 29 – Sep 30",
+          "window": "10:00 AM – 6:00 PM",
+          "progress": 66,
+          "currentStep": 2
+        },
+        "delivered_not_received": {
+          "status": "Marked delivered",
+          "label": "But you haven’t received it",
+          "message": "The carrier marked this order as delivered. If you can’t find it, we can help.",
+          "accent": "rose",
+          "estimated": "Delivered today",
+          "window": "3:42 PM",
+          "progress": 100,
+          "currentStep": 3
+        },
+        "tracking_unavailable": {
+          "status": "Tracking unavailable",
+          "label": "Tracking information isn't available yet",
+          "message": "Your order has been placed, but the carrier hasn't provided tracking information yet. We'll show updates here once they become available.",
+          "accent": "slate",
+          "estimated": "We'll update you soon",
+          "window": "Tracking will appear when available",
+          "progress": 25,
+          "currentStep": 0
+        }
+      },
+      "timeline": [
+        {
+          "title": "Order placed",
+          "description": "Sep 25, 9:18 AM",
+          "done": true
+        },
+        {
+          "title": "Shipped",
+          "description": "Sep 26, 4:05 PM",
+          "done": true
+        },
+        {
+          "title": "Out for delivery",
+          "description": "Sep 27, 8:20 AM",
+          "done": false
+        },
+        {
+          "title": "Delivered",
+          "description": "Waiting for confirmation",
+          "done": false
+        }
+      ]
+    }
+  ]
+}
