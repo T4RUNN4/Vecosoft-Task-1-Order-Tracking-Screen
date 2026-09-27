@@ -21,9 +21,3 @@ npm run dev
 - Contact/report issue support modal
 - Loading skeleton
 - Static JSON data in `src/data/orders.json`
-
-## Production integration
-
-The small "Preview status" control at the top is only for demonstrating the three required states. In a real app, remove it and set `selectedState` from your API/order status.
-
-Replace the static `orders.json` import with your API request when backend data is available.
